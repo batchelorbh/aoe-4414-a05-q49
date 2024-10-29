@@ -54,7 +54,7 @@ h_out = 1
 w_out = 1
 
 #Calculate the total number of addition and multiplication operations
-adds = n_wv * (c_in - 1)
+adds = n_wv * c_in
 muls = n_wv * c_in
 divs = 0 #Zero for fully-connected layer operations
 
